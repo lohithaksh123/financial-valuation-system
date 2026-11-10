@@ -1,7 +1,7 @@
 # Financial Intelligence & Valuation System
 
 [![CI](https://github.com/lohithaksh123/financial-valuation-system/actions/workflows/ci.yml/badge.svg)](https://github.com/lohithaksh123/financial-valuation-system/actions/workflows/ci.yml)
-![Python](https://img.shields.io/badge/python-3.9%20%7C%203.11-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-dashboard-FF4B4B?logo=streamlit&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-109%20passing-brightgreen)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
