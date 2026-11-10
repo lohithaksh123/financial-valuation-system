@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fivs"
+version = "1.0.0"
+description = "Financial Intelligence & Valuation System: audited-data pipeline, health scoring and multi-method equity valuation for US and Indian companies."
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+fivs = "fivs.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+filterwarnings = ["ignore::urllib3.exceptions.NotOpenSSLWarning"]
